@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# Script 2: FOSS Package Inspector
+
+# Author: Dhanashri Dhatrak
+
+PACKAGE="python3"
+
+echo "=========================================="
+echo "       FOSS Package Audit: $PACKAGE"
+echo "=========================================="
+
+if dpkg -s $PACKAGE &>/dev/null; then
+echo "[OK] $PACKAGE is installed on this system."
+echo "------------------------------------------"
+
+```
+dpkg -s $PACKAGE | grep -E 'Version|Section|Maintainer'
+
+echo "------------------------------------------"
+case $PACKAGE in
+    python3)
+        echo "Note: Python — A powerful open-source programming language."
+        ;;
+    apache2)
+        echo "Note: Apache — One of the most widely used web servers."
+        ;;
+    mysql*)
+        echo "Note: MySQL — Popular open-source database system."
+        ;;
+    *)
+        echo "Note: $PACKAGE is an important FOSS component."
+        ;;
+esac
+```
+
+else
+echo "[ERROR] $PACKAGE is NOT installed."
+echo "Run: sudo apt install $PACKAGE"
+fi

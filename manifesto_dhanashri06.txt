@@ -1,0 +1,6 @@
+--- MY OPEN SOURCE MANIFESTO ---
+Generated on: 26 March 2026
+
+As a developer, I believe that tools like Python empower the world.
+To me, software freedom is defined by 'FREEDOM'.
+I commit to contributing to the community by building Build for everyone.
