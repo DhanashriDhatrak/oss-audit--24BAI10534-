@@ -116,8 +116,8 @@ Demonstrates prompts, variables, and formatted output in Bash scripting.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/DhanashriDhatrak/oss-audit--24BAI10534-.git
+cd oss-audit--24BAI10534-
 ```
 
 2. Give execute permission:
